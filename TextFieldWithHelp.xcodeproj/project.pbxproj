@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B02F66F4159BF7FB0095942A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F66F3159BF7FB0095942A /* UIKit.framework */; };
+		B02F66F6159BF7FB0095942A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F66F5159BF7FB0095942A /* Foundation.framework */; };
+		B02F66F8159BF7FB0095942A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02F66F7159BF7FB0095942A /* CoreGraphics.framework */; };
+		B02F66FE159BF7FB0095942A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B02F66FC159BF7FB0095942A /* InfoPlist.strings */; };
+		B02F6700159BF7FB0095942A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F66FF159BF7FB0095942A /* main.m */; };
+		B02F6704159BF7FB0095942A /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F6703159BF7FB0095942A /* TFAppDelegate.m */; };
+		B02F6707159BF7FB0095942A /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F6706159BF7FB0095942A /* TFViewController.m */; };
+		B02F670A159BF7FB0095942A /* TFViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02F6708159BF7FB0095942A /* TFViewController_iPhone.xib */; };
+		B02F670D159BF7FB0095942A /* TFViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02F670B159BF7FB0095942A /* TFViewController_iPad.xib */; };
+		B02F6720159C03940095942A /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = B02F671E159C03940095942A /* dot.png */; };
+		B02F6721159C03940095942A /* baloonArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B02F671F159C03940095942A /* baloonArrow.png */; };
+		B02F6724159C10D00095942A /* TF_TextHelpGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F6723159C10D00095942A /* TF_TextHelpGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B02F66EF159BF7FB0095942A /* TextFieldWithHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldWithHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02F66F3159BF7FB0095942A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B02F66F5159BF7FB0095942A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B02F66F7159BF7FB0095942A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B02F66FB159BF7FB0095942A /* TextFieldWithHelp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldWithHelp-Info.plist"; sourceTree = "<group>"; };
+		B02F66FD159BF7FB0095942A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B02F66FF159BF7FB0095942A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B02F6701159BF7FB0095942A /* TextFieldWithHelp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextFieldWithHelp-Prefix.pch"; sourceTree = "<group>"; };
+		B02F6702159BF7FB0095942A /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		B02F6703159BF7FB0095942A /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		B02F6705159BF7FB0095942A /* TFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		B02F6706159BF7FB0095942A /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		B02F6709159BF7FB0095942A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFViewController_iPhone.xib; sourceTree = "<group>"; };
+		B02F670C159BF7FB0095942A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFViewController_iPad.xib; sourceTree = "<group>"; };
+		B02F671E159C03940095942A /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		B02F671F159C03940095942A /* baloonArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baloonArrow.png; sourceTree = "<group>"; };
+		B02F6722159C10D00095942A /* TF_TextHelpGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_TextHelpGenerator.h; sourceTree = "<group>"; };
+		B02F6723159C10D00095942A /* TF_TextHelpGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_TextHelpGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02F66EC159BF7FB0095942A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02F66F4159BF7FB0095942A /* UIKit.framework in Frameworks */,
+				B02F66F6159BF7FB0095942A /* Foundation.framework in Frameworks */,
+				B02F66F8159BF7FB0095942A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02F66E4159BF7FB0095942A = {
+			isa = PBXGroup;
+			children = (
+				B02F66F9159BF7FB0095942A /* TextFieldWithHelp */,
+				B02F66F2159BF7FB0095942A /* Frameworks */,
+				B02F66F0159BF7FB0095942A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B02F66F0159BF7FB0095942A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02F66EF159BF7FB0095942A /* TextFieldWithHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02F66F2159BF7FB0095942A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02F66F3159BF7FB0095942A /* UIKit.framework */,
+				B02F66F5159BF7FB0095942A /* Foundation.framework */,
+				B02F66F7159BF7FB0095942A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02F66F9159BF7FB0095942A /* TextFieldWithHelp */ = {
+			isa = PBXGroup;
+			children = (
+				B02F6702159BF7FB0095942A /* TFAppDelegate.h */,
+				B02F6703159BF7FB0095942A /* TFAppDelegate.m */,
+				B02F6705159BF7FB0095942A /* TFViewController.h */,
+				B02F6706159BF7FB0095942A /* TFViewController.m */,
+				B02F6708159BF7FB0095942A /* TFViewController_iPhone.xib */,
+				B02F670B159BF7FB0095942A /* TFViewController_iPad.xib */,
+				B02F66FA159BF7FB0095942A /* Supporting Files */,
+				B02F671E159C03940095942A /* dot.png */,
+				B02F671F159C03940095942A /* baloonArrow.png */,
+				B02F6722159C10D00095942A /* TF_TextHelpGenerator.h */,
+				B02F6723159C10D00095942A /* TF_TextHelpGenerator.m */,
+			);
+			path = TextFieldWithHelp;
+			sourceTree = "<group>";
+		};
+		B02F66FA159BF7FB0095942A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02F66FB159BF7FB0095942A /* TextFieldWithHelp-Info.plist */,
+				B02F66FC159BF7FB0095942A /* InfoPlist.strings */,
+				B02F66FF159BF7FB0095942A /* main.m */,
+				B02F6701159BF7FB0095942A /* TextFieldWithHelp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02F66EE159BF7FB0095942A /* TextFieldWithHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02F6710159BF7FB0095942A /* Build configuration list for PBXNativeTarget "TextFieldWithHelp" */;
+			buildPhases = (
+				B02F66EB159BF7FB0095942A /* Sources */,
+				B02F66EC159BF7FB0095942A /* Frameworks */,
+				B02F66ED159BF7FB0095942A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldWithHelp;
+			productName = TextFieldWithHelp;
+			productReference = B02F66EF159BF7FB0095942A /* TextFieldWithHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02F66E6159BF7FB0095942A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B02F66E9159BF7FB0095942A /* Build configuration list for PBXProject "TextFieldWithHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B02F66E4159BF7FB0095942A;
+			productRefGroup = B02F66F0159BF7FB0095942A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02F66EE159BF7FB0095942A /* TextFieldWithHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02F66ED159BF7FB0095942A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02F66FE159BF7FB0095942A /* InfoPlist.strings in Resources */,
+				B02F670A159BF7FB0095942A /* TFViewController_iPhone.xib in Resources */,
+				B02F670D159BF7FB0095942A /* TFViewController_iPad.xib in Resources */,
+				B02F6720159C03940095942A /* dot.png in Resources */,
+				B02F6721159C03940095942A /* baloonArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02F66EB159BF7FB0095942A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02F6700159BF7FB0095942A /* main.m in Sources */,
+				B02F6704159BF7FB0095942A /* TFAppDelegate.m in Sources */,
+				B02F6707159BF7FB0095942A /* TFViewController.m in Sources */,
+				B02F6724159C10D00095942A /* TF_TextHelpGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B02F66FC159BF7FB0095942A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02F66FD159BF7FB0095942A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B02F6708159BF7FB0095942A /* TFViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02F6709159BF7FB0095942A /* en */,
+			);
+			name = TFViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B02F670B159BF7FB0095942A /* TFViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02F670C159BF7FB0095942A /* en */,
+			);
+			name = TFViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B02F670E159BF7FB0095942A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B02F670F159BF7FB0095942A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B02F6711159BF7FB0095942A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldWithHelp/TextFieldWithHelp-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldWithHelp/TextFieldWithHelp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B02F6712159BF7FB0095942A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldWithHelp/TextFieldWithHelp-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldWithHelp/TextFieldWithHelp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02F66E9159BF7FB0095942A /* Build configuration list for PBXProject "TextFieldWithHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02F670E159BF7FB0095942A /* Debug */,
+				B02F670F159BF7FB0095942A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02F6710159BF7FB0095942A /* Build configuration list for PBXNativeTarget "TextFieldWithHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02F6711159BF7FB0095942A /* Debug */,
+				B02F6712159BF7FB0095942A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B02F66E6159BF7FB0095942A /* Project object */;
+}
