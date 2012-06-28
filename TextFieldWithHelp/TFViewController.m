@@ -108,9 +108,9 @@ UIImageView *helpImage;
 -(BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {
     NSString *helpString;
-    if (textField == tField1) helpString = @"masukkan username yang anda inginkan, huruf / abjad";
-    else if (textField == tField2) helpString = @"masukkan password, huruf dan abjad, minimal 8 karakter, tanpa spasi";
-    else if (textField == tField3) helpString = @"ulang password anda";
+    if (textField == tField1) helpString = @"input your desired username, must be alphabet and numbers only";
+    else if (textField == tField2) helpString = @"input password, minimum 8 characters, alphabetic and numbers only, no spaces";
+    else if (textField == tField3) helpString = @"re-input your password";
     
     [helpImage removeFromSuperview];
     helpImage = [TF_TextHelpGenerator helperBallonWithText:helpString aboveFrame:textField.frame heightSpacing:0 alpha:0.75];
